@@ -1,0 +1,22 @@
+{
+    "packages": [
+        {
+            "name": "lib-dev",
+            "version": "1.0.0",
+            "url": "https://github.com/EnginePAT/lib-dev/releases/download/v1.2.1/lib-dev-v1.0.0-lts.zip",
+            "dependencies": []
+        },
+        {
+            "name": "glfw",
+            "version": "1.2.3",
+            "url": "https://github.com/glfw/glfw/releases/download/3.3.2/glfw-3.3.2.zip",
+            "dependencies": ["lib-dev"]
+        },
+        {
+            "name": "glad",
+            "version": "1.2.5",
+            "url": "https://glad.dav1d.de/generated/tmpelicfoerglad/glad.zip",
+            "dependencies": []
+        }
+    ]
+}
